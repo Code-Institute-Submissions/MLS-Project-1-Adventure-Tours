@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+body {margin: 0;
+      border: 0;
+      padding:0;
+      font-family: "Lato", sans-serif;}
+
+h2 {text-align: center;
+    font-weight: 900;}      
+
+/*---------------------navbar styling--------------------*/
+
+.navbar {color: red;}
+
+.navbar-brand img { height: 70px;
+                   width: 200px;}
+
+.navbar-nav {}
+
+.nav-items {display: block;
+            padding:0 5px; }
+
+.nav-items a {text-decoration: none;
+              display: block;
+              color: white;}
+
+.nav-items a:hover {color: blue;}
+
+/*---------------------footer styling--------------------*/
+
+.social-links {text-align: center;}
+
+.social-links ul li {list-style: none;
+                     display: inline-block;
+                     padding: 0 10px; }
+
+/*---------------------explore page styling--------------------*/    
+
+.explore img {height: 400px;
+            width: 617px;}
+
+/*---------------------inddex page styling--------------------*/  
+
+.bgimage {background-image: url(https://safarifrank.com.au/wp-content/uploads/2018/11/zimbabwe-hwange-elephant-camp.jpg) ;
+height: 100vh;
+background-size: cover;}
+
+/*---------------------gallery page styling--------------------*/  
+
+.image-properties img {height: 164px;
+                       width: 274px;}
