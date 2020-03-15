@@ -6,7 +6,9 @@ body {margin: 0;
       font-family: "Lato", sans-serif;}
 
 h2 {text-align: center;
-    font-weight: 900;}      
+    margin: 0;   
+    background-color: rgb(236, 227, 227);
+    font-weight: 900;}
 
 /*---------------------navbar styling--------------------*/
 
@@ -26,26 +28,40 @@ h2 {text-align: center;
 
 .nav-items a:hover {color: blue;}
 
-/*---------------------footer styling--------------------*/
-
-.social-links {text-align: center;}
-
-.social-links ul li {list-style: none;
-                     display: inline-block;
-                     padding: 0 10px; }
-
-/*---------------------explore page styling--------------------*/    
-
-.explore img {height: 400px;
-            width: 617px;}
-
 /*---------------------inddex page styling--------------------*/  
 
 .bgimage {background-image: url(https://safarifrank.com.au/wp-content/uploads/2018/11/zimbabwe-hwange-elephant-camp.jpg) ;
 height: 100vh;
 background-size: cover;}
 
+/*---------------------explore page styling--------------------*/    
+
+.explore img {height: 400px;
+              width: 617px;
+              margin: 2px;
+              border: 1px solid black}
+
+.explore-text {margin: 2px;}              
+
 /*---------------------gallery page styling--------------------*/  
 
-.image-properties img {height: 164px;
-                       width: 274px;}
+.image-properties img {height: 184px;
+                       width: 300px;}
+
+
+/*---------------------about us page styling--------------------*/  
+
+
+/*---------------------contact us page styling--------------------*/  
+
+.contact-info p {font: italic;}
+
+/*---------------------footer styling--------------------*/
+
+.social-links {text-align: center;
+               background-color: rgb(192, 186, 186);
+               border-top: 1px solid black}
+
+.social-links ul li {list-style: none;
+                     display: inline-block;
+                     padding: 0 10px; }
