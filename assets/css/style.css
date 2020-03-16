@@ -8,52 +8,59 @@ body {margin: 0;
       font-family: "Lato", sans-serif;}
 
 h2 {text-align: center;
-    margin: 0;   
-    background-color: white;
-    font-style: bold;
+    margin: 0; 
+    font-weight: 800;  
+    background-color: whitesmoke;
     font-family: "Indie Flower", cursive;
     text-transform: uppercase;}
 
+
+
 /*---------------------navbar styling--------------------*/
 
-.navbar {margin: 30px;}
+.navbar {margin: 0 0;
+         background-color: rgb(168, 168, 168);}
 
 .navbar-brand img { height: 70px;
                    width: 200px;
                    border-radius: 3px;}
-
-.navbar-nav {}
 
 .nav-items {display: block;
             padding:0 5px; }
 
 .nav-items a {text-decoration: none;
               display: block;
-              color: black;}
+              color: white;}
 
-.nav-items a:hover {color: blue;}
+.nav-items a:hover {color: rgb(20, 17, 170);}
 
-/*---------------------inddex page styling--------------------*/  
+/*---------------------index page styling--------------------*/  
 
-.bgimage {background-image: url(https://safarifrank.com.au/wp-content/uploads/2018/11/zimbabwe-hwange-elephant-camp.jpg) ;
+.bgimage {background-image: url(https://images.unsplash.com/photo-1522163182402-834f871fd851?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80) ;
 height: 100vh;
+opacity: 0.8;
 background-size: cover;}
+
+.quote p {color: whitesmoke;}
 
 /*---------------------explore page styling--------------------*/    
 
 h3 {font-weight: 100;}
 
-.explore-image img span {columns: yellow;}
+.explore-image span h3 {columns: yellow;}
 
 .explore {margin: 2px 0;
-          border-top:1px solid gray; }
+          border-top:1px solid gray; 
+          height: 910px;}
 
 .explore-image img {height: 300px;
               width: 300px;
               margin: 2px;
               border: 1px solid black}
 
-.explore-text {margin: 2px;}              
+.explore-text {margin: 2px;}    
+
+
 
 /*---------------------gallery page styling--------------------*/  
 
@@ -64,21 +71,28 @@ h3 {font-weight: 100;}
                      color: black;
                      text-align: center;}
                     
-.gallery {margin:39px;}
-
+.gallery {margin:0;
+          border-top:1px solid gray;}
 
 /*---------------------about us page styling--------------------*/  
 
+.about {height: 910px;
+        border-top:1px solid gray;}
+
+p.about {color: black;}
 
 /*---------------------contact us page styling--------------------*/  
 
-.contact-info p {font: italic;}
+.contact {height: 910px;}
+
+.contact-info {font: bold;
+               color: black;}
 
 /*---------------------footer styling--------------------*/
 
 .social-links {text-align: center;
                background-color: rgb(192, 186, 186);
-               border-top: 1px solid black}
+               border-top: 1px solid gray;}
 
 .social-links ul li {list-style: none;
                      display: inline-block;

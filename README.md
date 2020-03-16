@@ -1,10 +1,14 @@
 # Adventure Tours
 
 ## Descpriotn 
- Adventure Tours is a static website were it shows users the best camping site, hiking sites and one day touring around the country for best value of your
+
+ Adventure Tours is a static website were it shows clients the best camping site, hiking sites and one day touring around the country for best value of your
  money
 
 ## UX
+
+This website was developed so as to make it easy for for user to find best camping site, hiking sites and one day touring around the country for best value of your
+money. This website was made so as to let users see the best natural places in the country were they can go and relax being away from most human civilasation for be it a day or days 
 
 ### Structure
 
@@ -43,7 +47,7 @@ A page which shows the prices and activities included for camping, hiking or tou
 Users will be able to post their videos on the site
 Users will be able to post their rating 
 Users will be able to search for the type of tour they want based on their budget
-Sites with higher rating will 
+Sites with higher rating will be recommended automatically when ever a user visits the home page
 
 ## Technologies Used
  
@@ -108,7 +112,7 @@ Alternatively you can download the zipped file, decompress it and use your IDE o
 #### Remote
 The live version of this website is hosted on GitHub Pages and will update as new commits occur.
 
-######The method used to deploy this website was as follows:
+#### The method used to deploy this website was as follows:
 
 1.In GitHub, navigated to my repository.
 
