@@ -1,21 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 
 body {margin: 0;
       border: 0;
       padding:0;
+      background-color: white;
       font-family: "Lato", sans-serif;}
 
 h2 {text-align: center;
     margin: 0;   
-    background-color: rgb(236, 227, 227);
-    font-weight: 900;}
+    background-color: white;
+    font-style: bold;
+    font-family: "Indie Flower", cursive;
+    text-transform: uppercase;}
 
 /*---------------------navbar styling--------------------*/
 
-.navbar {color: red;}
+.navbar {margin: 30px;}
 
 .navbar-brand img { height: 70px;
-                   width: 200px;}
+                   width: 200px;
+                   border-radius: 3px;}
 
 .navbar-nav {}
 
@@ -24,7 +29,7 @@ h2 {text-align: center;
 
 .nav-items a {text-decoration: none;
               display: block;
-              color: white;}
+              color: black;}
 
 .nav-items a:hover {color: blue;}
 
@@ -36,8 +41,13 @@ background-size: cover;}
 
 /*---------------------explore page styling--------------------*/    
 
-.explore img {height: 400px;
-              width: 617px;
+h3 {font-weight: 100;}
+
+.explore {margin: 2px 0;
+          border-top:1px solid gray; }
+
+.explore-image img {height: 300px;
+              width: 300px;
               margin: 2px;
               border: 1px solid black}
 
@@ -47,6 +57,12 @@ background-size: cover;}
 
 .image-properties img {height: 184px;
                        width: 300px;}
+
+.image-properties a {text-decoration: none;
+                     color: black;
+                     text-align: center;}
+                    
+.gallery {margin:39px;}
 
 
 /*---------------------about us page styling--------------------*/  
