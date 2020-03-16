@@ -45,8 +45,11 @@ A page which shows the prices and activities included for camping, hiking or tou
 
 #### Future Technology 
 Users will be able to post their videos on the site
+
 Users will be able to post their rating 
+
 Users will be able to search for the type of tour they want based on their budget
+
 Sites with higher rating will be recommended automatically when ever a user visits the home page
 
 ## Technologies Used
