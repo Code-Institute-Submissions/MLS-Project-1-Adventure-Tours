@@ -37,11 +37,13 @@ A page which shows the prices and activities included for camping, hiking or tou
 
 #### User Stories
 
-"As a user l want to see the photos of some the hiking site"
+"As a  tourist l want to see the photos of some the hiking site"
 
-"As a user l want to see the the price of the camping site"
+"As a tourist l want to see the the price of the camping site"
 
-"As a user l want to see the the activities offered on a certain tour"
+"As a tourist looking for an adventure holiday, I wanted to find out what deals were available"
+
+"As a  tourist l want to see the the activities offered on a certain tour"
 
 #### Future Technology 
 Users will be able to post their videos on the site

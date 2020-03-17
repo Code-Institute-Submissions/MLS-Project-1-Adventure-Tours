@@ -45,13 +45,12 @@ background-size: cover;}
 
 /*---------------------explore page styling--------------------*/    
 
-h3 {font-weight: 100;}
+h3 {}
 
 .explore-image span h3 {columns: yellow;}
 
 .explore {margin: 2px 0;
-          border-top:1px solid gray; 
-          height: 910px;}
+          border-top:1px solid gray; }
 
 .explore-image img {height: 300px;
               width: 300px;
