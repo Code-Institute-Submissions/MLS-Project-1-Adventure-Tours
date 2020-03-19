@@ -25,21 +25,26 @@
     </ul>
  </div>
 </nav>
-  <div class="container-fluid">
+<div class="container-fluid">
     <h2>Contact Us</h2>
+</div>
+  <div class="container-fluid contact-form">
+  <form action="/action_page.php">
+  <div class="form-group">
+    <label for="name">Name:</label>
+    <input type="text" class="form-control" placeholder="Enter name" id="name">
   </div>
-  <div class="container-fluid contact">
-      <div>
-     <p class="contact-info">Name: Adventure Tours</p>
-      </div>
-       <div>
-        <p class="contact-info">Email: adventuretours@gmail.com</p>
-      </div>
-      <div>
-        <p class="contact-info">Phone: +263 777070239</p>
-      </div>
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" placeholder="Enter email" id="email">
   </div>
-   
+ <div class="form-group">
+    <label for="message">Message</label>
+    <textarea class="form-control" id="message" rows="4"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
 <footer class="social-links">
       <div class="row no-gutters">
         <div class="col-sm-12 col-md-12">

@@ -19,7 +19,7 @@ h2 {text-align: center;
 /*---------------------navbar styling--------------------*/
 
 .navbar {margin: 0 0;
-         background-color: rgb(168, 168, 168);}
+         background-color: white;}
 
 .navbar-brand img { height: 70px;
                    width: 200px;
@@ -30,18 +30,26 @@ h2 {text-align: center;
 
 .nav-items a {text-decoration: none;
               display: block;
-              color: white;}
+              color: black;}
 
 .nav-items a:hover {color: rgb(20, 17, 170);}
 
 /*---------------------index page styling--------------------*/  
 
-.bgimage {background-image: url(https://images.unsplash.com/photo-1522163182402-834f871fd851?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80) ;
-height: 100vh;
-opacity: 0.8;
-background-size: cover;}
+ .bgimage {background: url("assets/images/zimrockhomeimage.jpg"); 
+           background-size: cover;
+           height: 100vh;
+           position: relative;}
 
-.quote p {color: whitesmoke;}
+.bgimage .content {position: absolute;
+                   top: 50%;
+                   left: 50%;
+                   transform: translate(-50%, -50%);
+                   background: rgba(46, 44, 44, 0.5);
+                   color: #f1f1f1;
+                   width: 100%;}
+
+.quote p {color: white;}
 
 /*---------------------explore page styling--------------------*/    
 
@@ -82,10 +90,10 @@ p.about {color: black;}
 
 /*---------------------contact us page styling--------------------*/  
 
-.contact {height: 910px;}
-
-.contact-info {font: bold;
-               color: black;}
+    .contact-form {
+    display:block;
+    margin :60px;
+    text-align: center;}
 
 /*---------------------footer styling--------------------*/
 
