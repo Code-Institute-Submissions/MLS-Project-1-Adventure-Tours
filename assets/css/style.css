@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rajdhani|Ruda&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap');
 
 body {margin: 0;
       border: 0;
@@ -9,9 +11,9 @@ body {margin: 0;
 
 h2 {text-align: center;
     margin: 0; 
-    font-weight: 800;  
-    background-color: whitesmoke;
-    font-family: "Indie Flower", cursive;
+    font-weight: 900;  
+    letter-spacing: 15px;
+    font-family: "Ruda", sans-serif;
     text-transform: uppercase;}
 
 
@@ -30,18 +32,21 @@ h2 {text-align: center;
 
 .nav-items a {text-decoration: none;
               display: block;
+              margin: 0 25px;
               color: black;}
+
+.navbar-toggler-icon {background-color: black;}
 
 .nav-items a:hover {color: rgb(20, 17, 170);}
 
 /*---------------------index page styling--------------------*/  
 
- .bgimage {background: url("assets/images/zimrockhomeimage.jpg"); 
+.bgimage {background-image: url("");
            background-size: cover;
            height: 100vh;
            position: relative;}
 
-.bgimage .content {position: absolute;
+.content {position: absolute;
                    top: 50%;
                    left: 50%;
                    transform: translate(-50%, -50%);
@@ -55,24 +60,32 @@ h2 {text-align: center;
 
 h3 {}
 
-.explore-image span h3 {columns: yellow;}
+.explore-image h3 {columns: yellow;}
 
 .explore {margin: 2px 0;
           border-top:1px solid gray; }
 
-.explore-image img {height: 300px;
-              width: 300px;
-              margin: 2px;
-              border: 1px solid black}
+.explore-image {padding: 0 2px;
+                 }
 
-.explore-text {margin: 2px;}    
+.explore-image img {height: 300px;
+                     width: 300px;
+                    margin: 2px;
+                    border: 1px solid black}
+
+.explore-image p {font-family: "Rajdhani", sans-serif;
+                  font-weight: 499;}
+
+.explore-image p > button {background-color: gray;
+        border-radius: 2px;
+        color: white;}
 
 
 
 /*---------------------gallery page styling--------------------*/  
 
-.image-properties img {height: 184px;
-                       width: 300px;}
+.image-properties img {height: 300px;
+                       width: 390px;}
 
 .image-properties a {text-decoration: none;
                      color: black;
@@ -90,10 +103,7 @@ p.about {color: black;}
 
 /*---------------------contact us page styling--------------------*/  
 
-    .contact-form {
-    display:block;
-    margin :60px;
-    text-align: center;}
+    .contact-form {padding: 150px;}
 
 /*---------------------footer styling--------------------*/
 
@@ -103,4 +113,4 @@ p.about {color: black;}
 
 .social-links ul li {list-style: none;
                      display: inline-block;
-                     padding: 0 10px; }
+                     padding: 0 20px; }
