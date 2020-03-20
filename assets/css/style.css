@@ -41,7 +41,7 @@ h2 {text-align: center;
 
 /*---------------------index page styling--------------------*/  
 
-.bgimage {background-image: url("");
+.bgimage {background-image: url("assets/images/zimrockhomeimage.jpg");
            background-size: cover;
            height: 100vh;
            position: relative;}
@@ -62,11 +62,12 @@ h3 {}
 
 .explore-image h3 {columns: yellow;}
 
-.explore {margin: 2px 0;
-          border-top:1px solid gray; }
+.explore {margin: 8px 0;
+          border-top:1px solid gray; 
+          background-color:white;
+          color: black;}
 
-.explore-image {padding: 0 2px;
-                 }
+.explore-image {padding: 0 2px;}
 
 .explore-image img {height: 300px;
                      width: 300px;
@@ -103,7 +104,7 @@ p.about {color: black;}
 
 /*---------------------contact us page styling--------------------*/  
 
-    .contact-form {padding: 150px;}
+
 
 /*---------------------footer styling--------------------*/
 
