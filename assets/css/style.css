@@ -35,26 +35,32 @@ h2 {text-align: center;
               margin: 0 25px;
               color: black;}
 
-.navbar-toggler-icon {background-color: black;}
+.navbar-toggler-icon {background-color: gray;
+                      border-radius: 5px;}
 
 .nav-items a:hover {color: rgb(20, 17, 170);}
 
 /*---------------------index page styling--------------------*/  
 
-.bgimage {background-image: url("assets/images/zimrockhomeimage.jpg");
+.bgimage {background-image: url("https://c.wallhere.com/photos/12/78/Africa_animals-148593.jpg!d");
            background-size: cover;
            height: 100vh;
            position: relative;}
 
 .content {position: absolute;
-                   top: 50%;
-                   left: 50%;
-                   transform: translate(-50%, -50%);
-                   background: rgba(46, 44, 44, 0.5);
-                   color: #f1f1f1;
-                   width: 100%;}
+          top: 50%;
+          left: 50%;
+          padding: 0 5px;
+          border-radius: 5px;
+          border-right: 0,6px solid black;
+          transform: translate(-50%, -50%);
+          background: rgba(255,255,255,0.5);
+          width: 100%;}
 
 .quote p {color: white;}
+
+.bgimage p {color: white;
+            text-align: center;}
 
 /*---------------------explore page styling--------------------*/    
 
@@ -104,7 +110,26 @@ p.about {color: black;}
 
 /*---------------------contact us page styling--------------------*/  
 
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 70px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.274);
+    margin-bottom: 70px;
+}
 
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.btn-secondary {margin: 20px;
+                padding: 0 5px;}
 
 /*---------------------footer styling--------------------*/
 
