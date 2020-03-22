@@ -33,15 +33,15 @@
       <div class="col-sm-12 col-md-3 explore-image">
         <img src="assets/images/vicfallsdevilspoool.jpg" class="img-fluid">
         <h3>Victoria Falls</h3>
-        <p>Victoria Falls presents a spectacular sight of awe-inspiring beauty and grandeur on the Zambezi River, forming the border between Zambia and Zimbabwe. It was described by 
-           the Kololo tribe living in the area in the 1800s as ‘Mosi-oa-Tunya’ – ‘The Smoke that Thunders’.<span class="dots">...</span><span class="more">In more modern terms Victoria Falls 
+           <p>Victoria Falls presents a spectacular sight of awe-inspiring beauty and grandeur on the Zambezi River, forming the border between Zambia and Zimbabwe. It was described by 
+           the Kololo tribe living in the area in the 1800s as ‘Mosi-oa-Tunya’ – ‘The Smoke that Thunders’.......<span id="text">In more modern terms Victoria Falls 
            is known as the greatest curtain of falling water in the world. Columns of spray can be seen from miles away as, at the height of the rainy season, more than five hundred 
            million cubic meters of water per minute plummet over the edge, over a width of nearly two kilometres, into a gorge over one hundred meters below. The wide, basalt cliff over
            which the falls thunder, transforms the Zambezi from a placid river into a ferocious torrent cutting through a series of dramatic gorges. Facing the Falls is another sheer 
            wall of basalt, rising to the same height, and capped by mist-soaked rain forest. A path along the edge of the forest provides the visitor prepared to brave the tremendous 
            spray, with an unparalleled series of views of the Falls. One special vantage point is across the Knife-edge Bridge, where visitors can have the finest view of the Eastern 
            Cataract and the Main Falls as well as the Boiling Pot, where the river turns and heads down the Batoka Gorge. Other vantage points include Livingstone Island, the Falls 
-           Bridge, Devils Pool and the Lookout Tree, both of which command panoramic views across the Main Falls.</span></p><button class="read">Read more</button>
+           Bridge, Devils Pool and the Lookout Tree, both of which command panoramic views across the Main Falls.</span></p><div class="btn-container"><button id="toggle">Read More</button></div>
            
         <h4>Activities</h4>
            <ul>
@@ -55,12 +55,12 @@
         <img src="assets/images/image4.jpg" class="img-fluid">
         <h3>Hwange National Parks</h3>
         <p>There are two distinct geographic zones, neither are able to support viable agriculture. The flora of the well drained northern area, part of the Zambezi watershed, is 
-           dominated by mopane and mixed terminalia, which is distinctly different from the rest. Elsewhere the Kalahari <span class="dots">...</span><span class="more"> scrublands,
+           dominated by mopane and mixed terminalia, which is distinctly different from the rest. Elsewhere the Kalahari <span id="text">scrublands,
            covered with stunted, scattered woodlands of teak and umtshibi trees, drain into Botswana's Makgadikgadi Depression. This habitat is characterised by marshy depressions, 
            vleis and fragile open grasslands on shallow soils. In the nineteen century this land was the royal hunting reserve of Mzilikazi and his successor Lobengula. But the arrival 
            of the first white hunters and settlers signalled the slaughter of its wildlife by the thousands. As their blood soaked deep into the sparse soils, it left empty, useless 
            wasteland, denuded of wildlife, unfit for farming. It was declared a game reserve in 1928 and with neighbouring Robins Game sanctuary, became a national park under he National
-           Park Act of 1949. Originally, Robins Game sanctuary belonged to H G Robins, a cattle rancher.</span></p><button class="read">Read more</button>
+           Park Act of 1949. Originally, Robins Game sanctuary belonged to H G Robins, a cattle rancher.</span></p><div class="btn-container"><button id="toggle">Read More</button></div>
         <h4>Activities</h4>
           <ul>
              <li>Elephant encounter</li>
@@ -231,14 +231,18 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
-  $(document).ready(function(){
-  $("read").click(function(){
-    $("this").prev().toggle();
-    $("this").siblings('.dots').toggle();
-    if($(this).text()=='readmore'){
-      $(this).text()'readless');
+$(document).ready(function() {
+  $("#toggle").click(function() {
+    var elem = $("#toggle").text();
+    if (elem == "Read More") {
+      //Stuff to do when btn is in the read more state
+      $("#toggle").text("Read Less");
+      $("#text").slideDown();
+    } else {
+      //Stuff to do when btn is in the read less state
+      $("#toggle").text("Read More");
+      $("#text").slideUp();
     }
-    else{$(this).text()'readmore');}
   });
 });
 </script>

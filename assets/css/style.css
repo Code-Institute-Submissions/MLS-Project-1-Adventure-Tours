@@ -81,7 +81,8 @@ h3 {}
                     border: 1px solid black}
 
 .explore-image p {font-family: "Rajdhani", sans-serif;
-                  font-weight: 499;}
+                  font-weight: 499;
+                  padding: 5px;}
 
 .explore-image p > button {background-color: gray;
         border-radius: 2px;
@@ -140,3 +141,26 @@ p.about {color: black;}
 .social-links ul li {list-style: none;
                      display: inline-block;
                      padding: 0 20px; }
+
+
+
+
+
+.btn-container{margin: auto;
+               height:90px;
+               width:166.23px;
+  
+}
+
+button{
+  user-select:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  cursor:pointer;
+  border:none;
+  padding:3px;
+  border-radius: 4px;
+  background-color: gray;
+  color:white;
+  box-sizing:border-box;}
