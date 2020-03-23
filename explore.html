@@ -41,7 +41,7 @@
            wall of basalt, rising to the same height, and capped by mist-soaked rain forest. A path along the edge of the forest provides the visitor prepared to brave the tremendous 
            spray, with an unparalleled series of views of the Falls. One special vantage point is across the Knife-edge Bridge, where visitors can have the finest view of the Eastern 
            Cataract and the Main Falls as well as the Boiling Pot, where the river turns and heads down the Batoka Gorge. Other vantage points include Livingstone Island, the Falls 
-           Bridge, Devils Pool and the Lookout Tree, both of which command panoramic views across the Main Falls.</span></p><div class="btn-container"><button id="toggle">Read More</button></div>
+           Bridge, Devils Pool and the Lookout Tree, both of which command panoramic views across the Main Falls.</span></p><div class="btn-container"><button class="toggle">Read More</button></div>
            
         <h4>Activities</h4>
            <ul>
@@ -55,12 +55,12 @@
         <img src="assets/images/image4.jpg" class="img-fluid" alt="Hwange National Parks" >
         <h3>Hwange National Parks</h3>
         <p>There are two distinct geographic zones, neither are able to support viable agriculture. The flora of the well drained northern area, part of the Zambezi watershed, is 
-           dominated by mopane and mixed terminalia, which is distinctly different from the rest. Elsewhere the Kalahari......<span id="text">
+           dominated by mopane and mixed terminalia, which is distinctly different from the rest. Elsewhere the Kalahari......<span class="text">
            covered with stunted, scattered woodlands of teak and umtshibi trees, drain into Botswana's Makgadikgadi Depression. This habitat is characterised by marshy depressions, 
            vleis and fragile open grasslands on shallow soils. In the nineteen century this land was the royal hunting reserve of Mzilikazi and his successor Lobengula. But the arrival 
            of the first white hunters and settlers signalled the slaughter of its wildlife by the thousands. As their blood soaked deep into the sparse soils, it left empty, useless 
            wasteland, denuded of wildlife, unfit for farming. It was declared a game reserve in 1928 and with neighbouring Robins Game sanctuary, became a national park under he National
-           Park Act of 1949. Originally, Robins Game sanctuary belonged to H G Robins, a cattle rancher.</span></p><div class="btn-container"><button id="toggle">Read More</button></div>
+           Park Act of 1949. Originally, Robins Game sanctuary belonged to H G Robins, a cattle rancher.</span></p><div class="btn-container"><button class="toggle">Read More</button></div>
         <h4>Activities</h4>
           <ul>
              <li>Elephant encounter</li>
@@ -104,7 +104,7 @@
         <img src="assets/images/easternhighlands8.jpg" class="img-fluid" alt="Eastern Highlands" >
         <h3>Eastern Highlands </h3>
         <p>Running alongside the Mozambican border for some 300 kilometres, the Eastern Highlands is a mountainous area of spectacular natural beauty: rolling hills, green forests, 
-           rugged peaks, misty valleys, deep gorges, cascading waterfalls, and sparkling rivers and lakes.<span id="dots">...</span><span id="more">  This is a totally different side to
+           rugged peaks, misty valleys, deep gorges, cascading waterfalls, and sparkling rivers and lakes.<span class="dots">...</span><span class="more">  This is a totally different side to
            the Zimbabwe that most visitors know: the cool damp climate and lush green landscapes of the Eastern Highlands are a contrast to the dry savanna in other parts of the country.
            While there is some game in the parks of the highlands, this is not a prime safari destination. Instead, people visit the Eastern Highlands for the outdoors activities of hiking, 
            horse riding, fishing and golf, as well as the superb birdlife and the stunning scenery. The Eastern Highlands is made up of three areas – the Nyanga Highlands in the north, the 
@@ -232,16 +232,16 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
 $(document).ready(function() {
-  $("#toggle").click(function() {
-    var elem = $("#toggle").text();
+  $(".toggle").click(function() {
+    var elem = $(".toggle").text();
     if (elem == "Read More") {
       //Stuff to do when btn is in the read more state
-      $("#toggle").text("Read Less");
-      $("#text").slideDown();
+      $(".toggle").text("Read Less");
+      $(".text").slideDown();
     } else {
       //Stuff to do when btn is in the read less state
-      $("#toggle").text("Read More");
-      $("#text").slideUp();
+      $(".toggle").text("Read More");
+      $(".text").slideUp();
     }
   });
 });
