@@ -72,29 +72,33 @@ h1 {text-align: center;
 /*---------------------explore page styling--------------------*/    
 
 .explore {margin: 8px 0;
-          
           background-color:white;
           color: black;}
 
 .explore-image {padding: 0 2px;}
 
+.paragraph  h3 {margin-top: 10px;
+                color: black;}
+
 .explore-image img {height: 300px;
                      width: 440px;
                     margin: 2px;
                      border-radius: 8px;
-                     border: 1px solid black}
+                     border: 1px solid black}                  
 
-.explore-image p {font-family: "Rajdhani", sans-serif;
-                  font-weight: 500;
-                  padding: 5px;}
+.paragraph p {font-family: "Rajdhani", sans-serif;
+              font-weight: 500;
+              color: white;
+              margin: 20px;
+              text-align: center;
+              border-radius: 5px;
+              background-color: gray;
+              padding: 10px;}
+               
 
 .explore-image p > button {background-color: gray;
         border-radius: 2px;
         color: white;}
-
-h4 > span {color: yellow;}
-
-
 
 /*---------------------gallery page styling--------------------*/  
 
