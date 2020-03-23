@@ -13,8 +13,8 @@ Github repo https://github.com/chasakara/MLS-Project-1-Adventure-Tours
 
 ## UX
 
-This website was developed so as to make it easy for for user to find best camping site, hiking sites and one day touring around the country for best value of your
-money. This website was made so as to let users see the best natural places in the country were they can go and relax being away from most human civilasation for be it a day or days 
+This website was developed so as to make it easy for for tourists to find best camping site, hiking sites and one day touring around the country for best value of their
+money. This website was made so as to let tourists see the best natural places in the country were they can go and relax being away from most human civilasation for be it a day or days 
 
 ### Structure
 
@@ -24,7 +24,7 @@ The landing page features the Adventure Tour logo and a background imgae.
 
 There is a Navigation bar at the top of the site.The Navigation bar collapses on smaller devices and a button appears which gives access to the Nav-Links on smaller devices
 
-Users can navigate to each page on the site by clicking the appropriate link within the Navigation bar - The buttons/links are designated by name corresponding to their respective pages
+Tourist can navigate to each page on the site by clicking the appropriate link within the Navigation bar - The buttons/links are designated by name corresponding to their respective pages
 
 
 ## Features in Use
@@ -89,20 +89,28 @@ there was sufficient contrast between text and the background colour.
 ### Testing Process
 This website was also tested manually on a range of devices and internet browsers:
 
-MacBook Laptop
+##### MacBook Laptop
 
 Google Chrome
+
 Internet Explorer 11
+
 Microsoft Edge
+
 Mozilla Firefox
-Mobile Samsung Galaxy S10:
+
+##### Mobile Samsung Galaxy S10:
 
 Google Chrome
+
 Firefox
+
 Brave
-iPhone 8:
+
+##### iPhone 8:
 
 Safari
+
 Google Chrome
 
 ## Validators
