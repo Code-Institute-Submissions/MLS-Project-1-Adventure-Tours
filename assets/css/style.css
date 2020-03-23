@@ -106,16 +106,39 @@ h3 {}
 .image-properties a {text-decoration: none;
                      color: black;
                      text-align: center;}
-                    
-.gallery {margin:0;
+
+tz-gallery {
+    margin:0;
           border-top:1px solid gray;
-          background-color: rgb(252, 252, 252);}
+          background-color: rgb(252, 252, 252);
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
 
 /*---------------------about us page styling--------------------*/  
 
 .aboutus {margin-top: 20px;
           padding: 70px;
-           height: 530px;
+           height: auto;
           border-top:1px solid gray;
           background-color: rgb(252, 252, 252);}
 
