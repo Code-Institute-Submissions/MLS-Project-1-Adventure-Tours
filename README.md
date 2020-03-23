@@ -1,8 +1,14 @@
 # Adventure Tours
 
+Code Institute - Milestone Project 1
+
+Live Website https://chasakara.github.io/MLS-Project-1-Adventure-Tours/
+
+Github repo https://github.com/chasakara/MLS-Project-1-Adventure-Tours
+
 ## Descpriotn 
 
- Adventure Tours is a static website were it shows clients the best camping site, hiking sites and one day touring around the country for best value of your
+ Adventure Tours is a static website were it shows tourist the best camping site, hiking sites and one day touring around the country for best value of your
  money
 
 ## UX
@@ -46,13 +52,15 @@ A page which shows the prices and activities included for camping, hiking or tou
 "As a  tourist l want to see the the activities offered on a certain tour"
 
 #### Future Technology 
-Users will be able to post their videos on the site
+Tourist will be able to post their videos on the site
 
-Users will be able to post their rating 
+Tourist will be able to post their rating 
 
-Users will be able to search for the type of tour they want based on their budget
+A map of the cmaping sites will be added
 
-Sites with higher rating will be recommended automatically when ever a user visits the home page
+Tourist will be able to search for the type of tour they want based on their budget
+
+Sites with higher rating will be recommended automatically when ever a tourist visits the home page
 
 ## Technologies Used
  
@@ -72,17 +80,42 @@ Balsamiq: A wireframe/mockup application that allowed me to create the basic str
 
 ## Testing 
 
+### Chrome Developer Tools 
+
+Frequent testing was carried out using Chrome’s developer tools to ensure that the content of the site 
+behaved properly and looked good across a range of screen sizes. This was also utilised to ensure that
+there was sufficient contrast between text and the background colour.
+
+### Testing Process
+This website was also tested manually on a range of devices and internet browsers:
+
+MacBook Laptop
+
+Google Chrome
+Internet Explorer 11
+Microsoft Edge
+Mozilla Firefox
+Mobile Samsung Galaxy S10:
+
+Google Chrome
+Firefox
+Brave
+iPhone 8:
+
+Safari
+Google Chrome
+
 ## Validators
 ##### HTML
 
 W3C HTML Validator
 
-No errors found.
+Some errors were  found.
 
 ##### CSS
 W3C CSS Validator
 
-No errors found.
+Some errors were  found.
 
 ## Manual Tests
 Several manual tests were performed to ensure the best possible user experience in both desktop and mobile environments. 
@@ -115,7 +148,6 @@ Alternatively you can download the zipped file, decompress it and use your IDE o
 
 
 #### Remote
-The live version of this website is hosted on GitHub Pages and will update as new commits occur.
 
 #### The method used to deploy this website was as follows:
 

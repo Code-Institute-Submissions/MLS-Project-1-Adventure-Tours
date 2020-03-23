@@ -60,7 +60,6 @@ h1 {text-align: center;
           left: 50%;
           padding: 0 5px;
           border-radius: 5px;
-          border-right: 0,6px solid black;
           transform: translate(-50%, -50%);
           background: rgba(255,255,255,0.5);
           width: 100%;}
@@ -71,10 +70,6 @@ h1 {text-align: center;
             text-align: center;}
 
 /*---------------------explore page styling--------------------*/    
-
-h3 {}
-
-.explore-image h3 {columns: yellow;}
 
 .explore {margin: 8px 0;
           border-top:1px solid gray; 
@@ -89,7 +84,7 @@ h3 {}
                     border: 1px solid black}
 
 .explore-image p {font-family: "Rajdhani", sans-serif;
-                  font-weight: 499;
+                  font-weight: 500;
                   padding: 5px;}
 
 .explore-image p > button {background-color: gray;
