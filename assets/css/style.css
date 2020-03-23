@@ -72,16 +72,17 @@ h1 {text-align: center;
 /*---------------------explore page styling--------------------*/    
 
 .explore {margin: 8px 0;
-          border-top:1px solid gray; 
+          
           background-color:white;
           color: black;}
 
 .explore-image {padding: 0 2px;}
 
 .explore-image img {height: 300px;
-                     width: 300px;
+                     width: 440px;
                     margin: 2px;
-                    border: 1px solid black}
+                     border-radius: 8px;
+                     border: 1px solid black}
 
 .explore-image p {font-family: "Rajdhani", sans-serif;
                   font-weight: 500;
@@ -91,28 +92,34 @@ h1 {text-align: center;
         border-radius: 2px;
         color: white;}
 
+h4 > span {color: yellow;}
+
 
 
 /*---------------------gallery page styling--------------------*/  
 
+.gallery {margin-top: 15px;}
+
 .image-properties img {height: 300px;
-                       width: 390px;}
+                       width: 410px;}
 
 .image-properties a {text-decoration: none;
                      color: black;
                      text-align: center;}
 
-tz-gallery {
-    margin:0;
-          border-top:1px solid gray;
-          background-color: rgb(252, 252, 252);
+.tz-gallery {
+           margin-top: 15px;
+           border-top:1px solid gray;
+           background-color: rgb(252, 252, 252);
 }
 
 .tz-gallery .lightbox img {
-    width: 100%;
-    margin-bottom: 30px;
+    width: 400px;
+    margin-bottom: 5px;
     transition: 0.2s ease-in-out;
     box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    max-width: 100%;
+    height: 300px;
 }
 
 
@@ -134,7 +141,6 @@ tz-gallery {
 .aboutus {margin-top: 20px;
           padding: 70px;
            height: auto;
-          border-top:1px solid gray;
           background-color: rgb(252, 252, 252);}
 
 p.about {color: black;}
