@@ -159,15 +159,15 @@ Alternatively you can download the zipped file, decompress it and use your IDE o
 
 #### The method used to deploy this website was as follows:
 
-1.In GitHub, navigated to my repository.
+• In GitHub, navigated to my repository.
 
-2.Under my repository, clicked "Settings".
+• Under my repository, clicked "Settings".
 
-3.Under the "GitHub Pages" section, used the Source drop-down menu and selected a publishing source, in this case the Master Branch .
+• Under the "GitHub Pages" section, used the Source drop-down menu and selected a publishing source, in this case the Master Branch .
 
-4.The website was immediately published and a green tab appeared with a link to the live website.
+• The website was immediately published and a green tab appeared with a link to the live website.
 
-5.The link obtained is the one displaying at the top of this document.
+• The link obtained is the one displaying at the top of this document.
 
 
 ## Credits
