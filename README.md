@@ -1,5 +1,7 @@
 # Adventure Tours
 
+![Adventure Tours](assets/images/rsponsive.jpg)
+
 Code Institute - Milestone Project 1
 
 Live Website https://chasakara.github.io/MLS-Project-1-Adventure-Tours/
@@ -163,7 +165,7 @@ Alternatively you can download the zipped file, decompress it and use your IDE o
 
 • Under my repository, clicked "Settings".
 
-• Under the "GitHub Pages" section, used the Source drop-down menu and selected a publishing source, in this case the Master Branch .
+• Under the "GitHub Pages" section, used the Source drop-down menu and selected a publishing source, in this case the Master Branch.
 
 • The website was immediately published and a green tab appeared with a link to the live website.
 
