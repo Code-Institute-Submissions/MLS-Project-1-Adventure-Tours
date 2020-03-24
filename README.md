@@ -28,6 +28,9 @@ There is a Navigation bar at the top of the site.The Navigation bar collapses on
 
 Tourist can navigate to each page on the site by clicking the appropriate link within the Navigation bar - The buttons/links are designated by name corresponding to their respective pages
 
+##### Skeleton
+
+Framework https://balsamiq.cloud/siiqo5t/pkr58us
 
 ## Features in Use
 
