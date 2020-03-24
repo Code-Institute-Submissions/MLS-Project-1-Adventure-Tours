@@ -118,12 +118,12 @@ Google Chrome
 
 W3C HTML Validator
 
-Some errors were  found.
+no errors were  found.
 
 ##### CSS
 W3C CSS Validator
 
-Some errors were  found.
+![CSS validator](assets/images/cssvalidator.jpg)
 
 ## Manual Tests
 Several manual tests were performed to ensure the best possible user experience in both desktop and mobile environments. 
