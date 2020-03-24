@@ -1,7 +1,5 @@
 # Adventure Tours
 
-![Adventure Tours](assets/images/rsponsive.jpg)
-
 Code Institute - Milestone Project 1
 
 Live Website https://chasakara.github.io/MLS-Project-1-Adventure-Tours/
@@ -20,7 +18,7 @@ money. This website was made so as to let tourists see the best natural places i
 
 ### Structure
 
-The site is structured as a 5 page website
+The site is structured as a 4 page website
 
 The landing page features the Adventure Tour logo and a background imgae.
 
@@ -34,9 +32,9 @@ Framework https://balsamiq.cloud/siiqo5t/pkr58us
 
 ## Features in Use
 
-#### Home page
+#### About Us
 
-Landing page meant to grab the user's attention and introduce the type of service one would expect
+A page which describe about who we are adventure tours
 
 #### Gallery page 
 
